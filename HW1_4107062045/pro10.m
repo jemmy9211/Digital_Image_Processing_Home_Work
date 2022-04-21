@@ -1,0 +1,22 @@
+f=imread("Fig0236(a)(letter_T).tif");
+degree=input("enter degree:");
+radio=input("enter scaling ratio:");
+xpixel=input("enter translating pixels(x):");
+ypixel=input("enter translating pixels(y):");
+a = imrotate(f,degree);
+a1=imtranslate(a,[xpixel,ypixel]);
+b = imrotate(f,degree);
+b1=imtranslate(b,[xpixel,ypixel],"nearest");
+c = imrotate(f,degree);
+c1=imtranslate(c,[xpixel,ypixel],"linear");
+d = imrotate(f,degree);
+d1=imtranslate(d,[xpixel,ypixel],"cubic");
+
+subplot(1,4,1);
+imshow(a1);
+subplot(1,4,2);
+imshow(b1);
+subplot(1,4,3);
+imshow(c1);
+subplot(1,4,4);
+imshow(d1);
