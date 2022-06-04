@@ -6,8 +6,8 @@ The content of this course is about use digit signal to process image to achieve
 --- 
 
 ## Term Project Readme  
-** references **
+**references** 
 [1] Tania Pouli, Erik Reinhard, Progressive color transfer for images of arbitrary dynamic range,           Computers & Graphics; 2011   
-[2] Safithtechi, Emo_Filters[https://github.com/safithetechi/Emo_Filters.git](https://github.com/safithetechi/Emo_Filters.git); 2020  
+[2] Safithtechi, Emo_Filters([https://github.com/safithetechi/Emo_Filters.git](https://github.com/safithetechi/Emo_Filters.git)); 2020  
 
 
